@@ -17,7 +17,7 @@ def display_instructions() -> None:
     typer.echo('\tУ этой команды нет опций или аргументов')
     typer.echo('\tПример использования: python -m src instruct')
     typer.echo('')
-    typer.echo('2) source - Выводит список доступных источников задач')
+    typer.echo('2) sources - Выводит список доступных источников задач')
     typer.echo('\tУ этой команды нет опций или аргументов')
     typer.echo('\tПример использования: python -m src sources')
     typer.echo('')
