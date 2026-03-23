@@ -5,6 +5,7 @@ cat << EOF
 Для просмотра инструкции к программе введите: python -m src instruct
 Для выполнения какой-либо другой команды программы введите ее согласно инструкции, например:
 python -m src read example_1.jsonl --contains проект
+Для выхода из программы введите: exit или quit
 EOF
 
 while true; do
